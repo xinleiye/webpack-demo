@@ -1,0 +1,38 @@
+{
+    "name": "webpack-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "webpack --watch",
+        "start": "webpack-dev-server --open --config webpack.dev.js",
+        "server": "node server.js",
+        "dev-server": "node dev-server.js",
+        "build": "webpack --config webpack.prod.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "vue": "^2.5.2",
+        "vue-jsonp": "^0.1.6",
+        "vue-router": "^3.0.1"
+    },
+    "devDependencies": {
+        "babel": "^6.23.0",
+        "clean-webpack-plugin": "^0.1.16",
+        "css-loader": "^0.28.4",
+        "csv-loader": "^2.1.1",
+        "express": "^4.15.3",
+        "file-loader": "^0.11.2",
+        "html-webpack-plugin": "^2.29.0",
+        "style-loader": "^0.18.2",
+        "webpack": "^3.6.0",
+        "webpack-dev-middleware": "^1.12.0",
+        "xml-loader": "^1.2.1",
+        "vue-loader": "^13.4.0",
+        "vue-style-loader": "^3.0.3",
+        "vue-template-compiler": "^2.5.3"
+    }
+}
